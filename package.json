@@ -1,0 +1,20 @@
+{
+  "name": "firebase-oncall-middleware",
+  "version": "1.0.0",
+  "description": "add middlewares to Firebase Oncall functions",
+  "main": "out/compose.js",
+  "scripts": {
+    "prepack": "tsc --project ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "BH4EHN <edyuy@zmyseries.com>",
+  "license": "ISC",
+  "repository": "https://github.com/BH4EHN/firebase-oncall-middleware",
+  "engines" : {
+    "node" : ">=8"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.9.1",
+    "firebase-functions": "^3.3.0"
+  }
+}
